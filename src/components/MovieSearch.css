@@ -1,0 +1,53 @@
+.movie-app {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+};
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)) ;
+    gap: 20px;
+}
+
+.movie-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+.movie-card h3 {
+    padding: 10px;
+    font-size: 1rem;
+}
